@@ -66,12 +66,12 @@
     padding: 10px;
   }
   
-  /* .remove-button:hover {
+  .remove-button:hover {
     color: red;
     font-weight: 900;
     border: 1px solid red;
   }
-   */
+  
   .form h2 {
     text-align: center;
     font-size: 42px;
