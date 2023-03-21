@@ -1,0 +1,44 @@
+/* How can i create book website which add and delete item of book using javascript of Class */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    text-align: center;
+  }
+  .form h2 {
+      text-align: center;
+      font-size: 42px;
+      font-weight: 500;
+      margin-top: 70px;
+      margin-bottom: 50px;
+    }
+    
+    #add-new-book {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 400px;
+      margin: auto;
+    }
+    
+    .book-title,
+    .book-author {
+      border: 3px solid black;
+      width: 400px;
+      font-weight: 500;
+      height: 30px;
+    }
+    
+    #add-btn {
+      padding: 7px 15px;
+      background-color: white;
+      border: 2px solid black;
+      font-size: 16px;
+      font-weight: 500;
+      box-shadow: 5px 5px 0 2px;
+      align-self: flex-end;
+    }
+    
+  
