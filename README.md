@@ -39,7 +39,6 @@
 
 **[Awesome Books Project](https://lul-abdifan.github.io/Awesome-Book/)** is a  a basic website that allows users to add and/or remove books from a list of books on the website. The Project is achieved by using JavaScript objects and arrays. The project also implemented features that dynamically modify the DOM and add basic events and listeners..
 
-## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
