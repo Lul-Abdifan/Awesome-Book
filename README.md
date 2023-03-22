@@ -70,7 +70,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Awesome Books Project](https://bestbynature.github.io/awesome-books-project/)
+- [Awesome Books Project](https://lul-abdifan.github.io/Awesome-Book/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
