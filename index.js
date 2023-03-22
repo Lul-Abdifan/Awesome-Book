@@ -125,7 +125,7 @@ class Navigation {
     }
   }
 }
-
+// attaching a click event to each link item
 links.forEach((link) => {
   link.onclick = () => {
     Navigation.changePage(link.textContent);
