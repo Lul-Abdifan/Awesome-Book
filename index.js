@@ -1,11 +1,10 @@
 let books;
-// class Collection {
-//   constructor(title, author) {
-//     this.title = title;
-//     this.author = author;
-//   }
-// }
-import { Collection } from "./components/collection";
+class Collection {
+  constructor(title, author) {
+    this.title = title;
+    this.author = author;
+  }
+}
 // for storing
 class Store {
   static getBooks() {
@@ -123,7 +122,7 @@ class Navigation {
     }
   }
 }
-// attaching a click event to each link item
+
 links.forEach((link) => {
   link.onclick = () => {
     Navigation.changePage(link.textContent);

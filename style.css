@@ -23,10 +23,6 @@
   color: red;
 }
 
-.dataContainer h1 span {
-  color: rgb(153, 45, 26);
-}
-
 .jump-effect {
   font-size: 3rem;
   display: inline-block;
