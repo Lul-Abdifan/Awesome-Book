@@ -1,10 +1,11 @@
 let books;
-class Collection {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-  }
-}
+// class Collection {
+//   constructor(title, author) {
+//     this.title = title;
+//     this.author = author;
+//   }
+// }
+import { Collection } from "./components/collection";
 // for storing
 class Store {
   static getBooks() {
@@ -90,7 +91,7 @@ document.querySelector('.bookLists').addEventListener('click', (e) => {
   Page.removeFromPage(e.target);
 });
 
-//navigation for the all lists
+// navigation for the all lists
 
 const storerSpace = document.querySelector('#bookStorer');
 const addSpace = document.querySelector('#filling-form-section');
@@ -99,24 +100,21 @@ const links = document.querySelectorAll('.nav-link');
 class Navigation {
   static changePage(identifier) {
     switch (identifier) {
-      case 'List':
-      {
+      case 'List': {
         contactSpace.style.display = 'none';
         addSpace.style.display = 'none';
         storerSpace.style.display = 'block';
         break;
       }
 
-      case 'Add new':
-      {
+      case 'Add new': {
         contactSpace.style.display = 'none';
         addSpace.style.display = 'block';
         storerSpace.style.display = 'none';
         break;
       }
 
-      default:
-      {
+      default: {
         contactSpace.style.display = 'block';
         addSpace.style.display = 'none';
         storerSpace.style.display = 'none';
