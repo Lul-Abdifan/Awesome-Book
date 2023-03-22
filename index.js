@@ -1,10 +1,11 @@
 let books;
-class Collection {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-  }
-}
+// class Collection {
+//   constructor(title, author) {
+//     this.title = title;
+//     this.author = author;
+//   }
+// }
+import { Collection } from "./components/collection";
 // for storing
 class Store {
   static getBooks() {

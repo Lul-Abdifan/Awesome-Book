@@ -37,7 +37,7 @@
 # 📖 [Awesome Books Project] <a name="about-project"></a>
 
 
-**[Awesome Books Project](https://bestbynature.github.io/awesome-books-project/)** is a  a basic website that allows users to add and/or remove books from a list of books on the website. The Project is achieved by using JavaScript objects and arrays. The project also implemented features that dynamically modify the DOM and add basic events and listeners..
+**[Awesome Books Project](https://lul-abdifan.github.io/Awesome-Book/)** is a  a basic website that allows users to add and/or remove books from a list of books on the website. The Project is achieved by using JavaScript objects and arrays. The project also implemented features that dynamically modify the DOM and add basic events and listeners..
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -164,9 +164,9 @@ You can deploy this project using:
 
 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/Bestbynature)
-- Twitter: [@twitterhandle](https://twitter.com/Dammybest)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/damilare-ismaila-4a5a8b30/)
+- GitHub: [DammyGithub](https://github.com/Bestbynature)
+- Twitter: [DammyTwitter](https://twitter.com/Dammybest)
+- LinkedIn: [DammyLinkedIn](https://www.linkedin.com/in/damilare-ismaila-4a5a8b30/)
 
 
 
