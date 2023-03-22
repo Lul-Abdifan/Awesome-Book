@@ -1,3 +1,4 @@
+
 let books;
 class Collection {
   constructor(title, author) {
@@ -66,9 +67,6 @@ class Page {
   }
 }
 
-// display Books
-document.addEventListener('DOMContentLoaded', Page.retrieveToPage);
-
 // Event:Add a Book
 document.querySelector('#add-new-book').addEventListener('submit', (e) => {
   e.preventDefault();
@@ -96,6 +94,15 @@ const storerSpace = document.querySelector('#bookStorer');
 const addSpace = document.querySelector('#filling-form-section');
 const contactSpace = document.querySelector('#contactpage');
 const links = document.querySelectorAll('.nav-link');
+
+// displaying  Books and retrieving data to to the content
+document.addEventListener('DOMContentLoaded',()=>{
+  Page.retrieveToPage()
+  contactSpace.style.display = 'none';
+  addSpace.style.display = 'block';
+  storerSpace.style.display = 'none';
+})
+
 class Navigation {
   static changePage(identifier) {
     switch (identifier) {
