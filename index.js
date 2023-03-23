@@ -96,11 +96,14 @@ const links = document.querySelectorAll('.nav-link');
 
 // displaying  Books and retrieving data to to the content
 document.addEventListener('DOMContentLoaded', () => {
+ InitialLoading();
+});
+const InitialLoading=()=>{
   Page.retrieveToPage();
   contactSpace.style.display = 'none';
   addSpace.style.display = 'block';
   storerSpace.style.display = 'none';
-});
+}
 
 class Navigation {
   static changePage(identifier) {
